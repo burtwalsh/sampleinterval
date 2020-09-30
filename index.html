@@ -1,0 +1,12 @@
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+Base Information
+<script>
+var toggle = false;
+setInterval(function(){ toggle = !toggle; if (toggle) { document.getElementById("mainFrame").src="notmine.html"; } else { document.getElementById("mainFrame").src="mine.html"; }  }, 3000);
+</script>
+<iframe src="mine.html" id="mainFrame"></iframe>
+</html>
+
